@@ -16,9 +16,9 @@ task:
   name: "OrangeFox CI"
   timeout_in: 120m
   container:
-      image: ghcr.io/sushrut1101/docker:latest
+      image: shubhamvis98/kernel-builder
       cpu: 8
       memory: 20G
       
   Checks_script:
-      - curl -sL https://raw.githubusercontent.com/pt20912/gvsedgvqedvad/main/build.sh | bash
+      - curl -sL https://raw.githubusercontent.com/pt20912/fsgsdgsdgvsd/main/build.sh | bash
